@@ -6,8 +6,8 @@ import NavBar from "./Components/Navbar.js";
 import ListItem from "./Components/ListItem";
 import MapBox from "./Components/MapBox";
 import MobileHeader from "./Components/MobileHeader";
-import { SAMPLE_SEARCH_RESPONSE, DEFAULT_ADDRESS } from "./Fixtures";
-import { SEARCH_API_ENABLED, YELP_SERVER } from "./Config";
+import { SAMPLE_SEARCH_RESPONSE, DEFAULT_ADDRESS } from "./Fixtures/index";
+import { SEARCH_API_ENABLED, YELP_SERVER } from "./Config/index";
 import axios from "axios";
 
 class App extends Component {
