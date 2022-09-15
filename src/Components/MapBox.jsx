@@ -11,7 +11,7 @@ import {
 } from "react-google-maps";
 import Autocomplete from "react-google-autocomplete";
 import UseMyLocation from "./UseMyLocation";
-import { get_google_map_url } from "../Utils/index";
+import { get_google_map_url } from "../Config/index1";
 
 class MapBox extends Component {
   constructor(props) {

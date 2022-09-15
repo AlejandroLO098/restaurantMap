@@ -1,7 +1,5 @@
 import React, { Component, useState } from "react";
 
-import { FaBeer } from "react-icons/fa";
-
 export class UseMyLocation extends Component {
   constructor(props) {
     super(props);

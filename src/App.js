@@ -9,6 +9,7 @@ import MobileHeader from "./Components/MobileHeader";
 import { SAMPLE_SEARCH_RESPONSE, DEFAULT_ADDRESS } from "./Fixtures/index";
 import { SEARCH_API_ENABLED, YELP_SERVER } from "./Config/index";
 import axios from "axios";
+import Friends from "./Components/Friends";
 
 class App extends Component {
   constructor() {
@@ -84,6 +85,7 @@ class App extends Component {
             </div>
           </div>
         </div>
+        <Friends />
       </Fragment>
     );
   }
